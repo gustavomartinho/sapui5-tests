@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="pt">
+<html lang="en">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src data: blob:; base-uri 'none'; form-action 'none'">
@@ -3375,7 +3375,7 @@ const FILES = [{"dir": "orders/", "dpath": "", "anc": [], "n": 28, "root": true}
   root.dataset.collection = collection;
 
   let lang = store.get("atelier.lang");
-  if (!["pt", "en", "fr"].includes(lang)) lang = "pt";
+  if (!["pt", "en", "fr"].includes(lang)) lang = "en";
   const L = (o) => (o && (o[lang] || o.en)) || "";
 
   function highlight(code, grammar) {
